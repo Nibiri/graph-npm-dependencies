@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "esnext",
+        "downlevelIteration": true,
+        "allowJs": false,
+        "alwaysStrict": true,
+        "noImplicitAny": false,
+        "noImplicitThis": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": false,
+        "strictNullChecks": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "jsx": "react",
+        "resolveJsonModule": true,
+        "outDir": "./dist",
+        "typeRoots": ["node_modules/@types"],
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "isolatedModules": true,
+        "noEmit": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "/dist", "**/test/**/*", "*.test.*", "**/stories/**/*", "*.stories.tsx"]
+}

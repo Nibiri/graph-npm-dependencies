@@ -1,0 +1,2 @@
+export const GET_PACKAGE_INFO = 'GET_PACKAGE_INFO';
+export const GET_PROJECT_INFO = 'GET_PROJECT_INFO';
